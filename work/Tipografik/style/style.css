@@ -1,0 +1,313 @@
+* {
+margin:0;
+padding:0;
+}
+
+a img
+{
+	border: none;
+}
+
+h1
+{
+	font:bold 24px Tahoma;
+	color: #444;
+}
+
+h2
+{
+	font: bold 20px Tahoma;
+	color: #555;
+}
+
+#page 
+{
+	width:100%;
+	height:auto;
+	background:#20588c
+}
+
+#layout 
+{
+	width:960px;
+	height:auto;
+	margin:0 auto 30px auto;
+}
+
+#header 
+{
+	width:100%;
+	height:auto;
+}
+
+#header a 
+{
+	font-size:0;
+	padding:0;
+}
+
+#header p 
+{
+	font:18px Impact;
+	float:right;
+	text-align:right;
+	color:#fff;	
+	padding-top:50px;
+}
+
+#header p span 
+{
+	font-size:24;
+	color:#aad6fe;
+}
+
+#menu 
+{
+	width:100%;
+	height:55px;
+	margin-bottom:7px;
+	border-radius:5px;
+	background:#0c2439; /* Для старых браузров */
+	background: -moz-linear-gradient(top, #0f2c47, #0b2033); /* Firefox 3.6+ */
+	/* Chrome 1-9, Safari 4-5 */
+	/* Chrome 10+, Safari 5.1+ */
+	background: -webkit-linear-gradient(top, #0f2c47, #0b2033);
+	background: -o-linear-gradient(top, #0f2c47, #0b2033); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #0f2c47, #0b2033); /* IE10 */
+	background: linear-gradient(top, #0f2c47, #0b2033); /* CSS3 */
+	overflow:hidden;
+}
+
+#content 
+{
+	width:920px;
+	height:auto;
+	background:#f4f5f5;
+	overflow:hidden;
+	padding:0 20px;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 6px 10px #143555;
+}
+
+#menu li 
+{
+	float:left;
+	list-style:none;
+	padding:16px 60px 0 20px;
+}
+
+#menu li a 
+{
+	font:18px Tahoma;
+	color:#aad6fe;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+#menu li a:hover, #menu li a.current
+{
+	text-shadow:0 1px 4px #d0e7fc;
+}
+
+#pic 
+{
+	width:100%;
+	height:350px;
+	overflow: hidden;
+	border-bottom: 1px solid #bfbebe;
+}
+
+#pic img 
+{
+	float: left;
+	padding: 0 20px 0 0;
+}
+
+#pic ul 
+{
+	padding: 50px ;
+}
+
+#pic ul li 
+{
+	font: 24px Tahoma;
+	color: #333;
+	padding: 4px 0;
+	list-style: none;
+}
+
+.button 
+{
+	padding: 5px 15px;
+	font: 20px Tahoma;
+	color: #5f6060;
+	border-radius: 5px;
+	background:#ccc; /* Для старых браузров */
+	background: -moz-linear-gradient(top, #f1f0f0, #e9e8e8); /* Firefox 3.6+ */
+	/* Chrome 1-9, Safari 4-5 */
+	/* Chrome 10+, Safari 5.1+ */
+	background: -webkit-linear-gradient(top, #f1f0f0, #e9e8e8);
+	background: -o-linear-gradient(top, #f1f0f0, #e9e8e8); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f1f0f0, #e9e8e8); /* IE10 */
+	background: linear-gradient(top, #0f2c47, #e9e8e8); /* CSS3 */
+	border: 1px solid #d2d2d2;
+	box-shadow: 0.1px 3px #b1b2b2;
+	text-decoration: none;
+}
+
+#text 
+{
+	width:640px;
+	height:auto;
+	float:left;
+	margin: 10px 0 50px 0;
+}
+
+#text p 
+{
+	font: 16px Tahoma;
+	color: #444;
+	padding: 10px 0;
+}
+
+#text ul
+{
+	padding: 10px 20px;
+}
+
+#text ul li 
+{
+	padding: 3px 0;
+	list-style: url('../images/tick.png');
+}
+
+#text a, #sidebar a 
+{
+	color: #024282;	
+}
+
+#text a, #sidebar a:hover
+{
+	text-decoration: underline;
+}
+
+#sidebar 
+{
+	width:260px;
+	height:auto;
+	float:right;
+	margin: 10px 0 0 0;
+}
+
+#sidebar a, #text a:hover
+{
+	text-decoration: none;
+}
+
+.contact, .social
+{
+	height: auto;
+	margin: 0 0 20px 0;
+	border: 1px solid #999;
+	border-radius: 5px;
+	background: url(../images/fon.png);
+	padding: 7px 10px 50px 10px;
+}
+
+.contact h3
+{
+	background: url(../images/h3-red.png) no-repeat top right;
+}
+
+.contact p 
+{
+	font: 16px Tahoma;
+	color: #333;
+	padding: 4px 0;
+}
+
+.contact h3, .social h3 
+{
+	font: bold 18px Tahoma;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 5px 0 15px 15px;
+	position: relative;
+	left: -13px;
+}
+
+.social h3
+{
+	background: url(../images/h3-blue.png) no-repeat top right;
+}
+
+.social img 
+{
+	padding: 10px 10px 0 0;
+	opacity: 0.8;
+}
+
+.social img:hover
+{
+	opacity: 1.0;
+}
+
+#footer 
+{
+	width:100%;
+	height:150px;
+	background:#2b2b2b;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 0 6px 10px #143555;
+}
+
+#footer ul 
+{
+	padding: 10px 20px;
+}
+
+#footer ul li 
+{
+	float: left;
+	list-style: none;
+	padding: 0 30px 0 0;
+}
+
+#footer ul li a 
+{
+	font: 16px Tahoma;
+	color: #f2f4f5;
+}
+
+.form
+{
+	width: 470px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+.form ul li
+{
+	list-style: none;
+	padding: 3px 0;
+}
+
+.form span
+{
+	color: #fff;
+	font: 16px Tahoma;
+}
+
+.form h1
+{
+	font: 24px Tahoma;
+	color: #eee;
+	text-align: center;
+}
+
+.form p
+{
+	font: 16px Tahoma;
+	color: #fff;
+	text-align: center;
+}

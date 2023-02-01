@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Сделать заказ</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body id="page">
+		<div class="form">
+			<form name="order" method="post" action="send.php">
+				<ul>
+					<li><span>Введите ваше имя:</span><br><input type="text" name="name" maxlength="25" size="25" required></li>
+					<li><span>Введите ваш E-mail:</span><br><input type="e-mail" name="email" maxlength="25" size="25" required></li>
+					<li><span>Введите ваше телефон:</span><br><input type="text" name="phone" maxlength="25" size="25" required></li>
+					<li><select name="service" multiple>
+						<option>Визитки</option>
+						<option>Буклеты</option>
+						<option>Листовки</option>
+						<option>Календари</option>
+						</select>
+					</li>
+					<li><span>Введите кол-во:</span><br><input type="text" name="sum" maxlength="25" required></li>
+					<li><span>Нужен ли вам дизайн:</span><br><input type="radio" name="design" value="Дизайн нужен" required><span>Да</span></li>
+					<li><span></span><br><input type="radio" name="design" value="Дизайн уже есть"><span>Нет, не нужен</span></li>
+					<li><span>Комментарий к заказу:</span><br><textarea name="comment" rows="4" cols="25"></textarea></li>
+					<li><input type="submit" value="Отправить" class="button"></li>
+				</ul>
+			</form>
+		</div>
+	</body>
+</html>
